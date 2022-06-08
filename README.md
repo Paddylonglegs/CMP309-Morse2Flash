@@ -4,9 +4,11 @@ Android Studio Application that flashes Morse code using the phone flashlight.
 <div class="text-center"><h2 style="text-decoration: underline">About</h2></div>
                     
 
-Module: CMP309
-Title: Software Development for Mobile Devices
-Grade: TBC
+<ul>
+  <li>Module: CMP309</li>
+  <li>Title: Software Development for Mobile Devices</li>
+  <li>Grade: TBC</li>
+</ul>
             
             
 One of my modules in third year was to develop an app for android devices using android studio. I decided to do a Morse code app that will translate a user message into morse code, and flash it using the devices flashlight. My app is called Morse2Flash!
