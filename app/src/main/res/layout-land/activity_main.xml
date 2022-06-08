@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rbgGroup"
+        android:layout_width="168dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657">
+
+        <RadioButton
+            android:id="@+id/rbInternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/inputcolor"
+            android:minHeight="48dp"
+            android:text="@string/internal_storage" />
+
+        <RadioButton
+            android:id="@+id/rbExternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/inputcolor"
+            android:minHeight="48dp"
+            android:text="@string/external_storage" />
+
+        <RadioButton
+            android:id="@+id/rbSQLite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/inputcolor"
+            android:minHeight="48dp"
+            android:text="@string/sqlite_database" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/inputcolor"
+        android:onClick="processClicks"
+        android:text="@string/save_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/inputcolor"
+        android:onClick="processClicks"
+        android:text="@string/clear_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoad"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/inputcolor"
+        android:onClick="processClicks"
+        android:text="@string/load_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/inputcolor"
+        android:onClick="buttonHandler"
+        android:text="@string/flash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:background="@color/inputcolor"
+        android:ems="10"
+        android:hint="@string/enter_text_to_flash_in_morse_code"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:background="@color/inputcolor"
+        android:text="@string/info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

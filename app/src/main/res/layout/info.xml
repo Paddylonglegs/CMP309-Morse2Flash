@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:background="@color/inputcolor"
+        android:text="@string/how_to_use_morse2flash"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="297dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/inputcolor"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/alphabnum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="383dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/inputcolor"
+        android:text="@string/enter_a_message_you_would_like_to_be_flashed_using_your_phone_flashlight_morse2flash_will_convert_your_text_into_morse_code_for_you_hit_quot_flash_quot_once_you_ve_entered_your_message_to_begin_flashing_in_morse_the_length_of_a_dot_is_1_second_a_dash_is_3_seconds_the_space_between_symbols_dots_and_dashes_of_the_same_letter_is_1_second_the_space_between_letters_is_seconds_a_b_finally_space_between_words_is_7_seconds_example_space"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="344dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/inputcolor"
+        android:textColor="#000000"
+        android:text="@string/https_www_codebug_org_uk_assets_steps_540_image_1_png"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="83dp"
+        android:layout_height="31dp"
+        android:background="@color/inputcolor"
+        android:text="@string/main_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

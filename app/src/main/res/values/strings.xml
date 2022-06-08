@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Morse2Flash</string>
+    <string name="flash">Flash</string>
+    <string name="enter_text_to_flash_in_morse_code">Enter text to flash in Morse code</string>
+    <string name="save_text">Save Text</string>
+    <string name="clear_text">Clear Text</string>
+    <string name="load_text">Load Text</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="external_storage">External Storage</string>
+    <string name="sqlite_database">SQLite Database</string>
+    <string name="appwidget_text">Morse2Flash</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">Tap to Flash in Morse</string>
+    <string name="how_to_use_morse2flash">How to use Morse2Flash!</string>
+    <string name="https_www_codebug_org_uk_assets_steps_540_image_1_png">https://www.codebug.org.uk/assets/steps/540/image_1.png</string>
+    <string name="info">Info</string>
+    <string name="todo">TODO</string>
+    <string name="main_page">Main Page</string>
+    <string name="enter_a_message_you_would_like_to_be_flashed_using_your_phone_flashlight_morse2flash_will_convert_your_text_into_morse_code_for_you_hit_quot_flash_quot_once_you_ve_entered_your_message_to_begin_flashing_in_morse_the_length_of_a_dot_is_1_second_a_dash_is_3_seconds_the_space_between_symbols_dots_and_dashes_of_the_same_letter_is_1_second_the_space_between_letters_is_seconds_a_b_finally_space_between_words_is_7_seconds_example_space">Enter a message you would like to be flashed using your phone flashlight. Morse2Flash will convert your text into Morse code for you. Hit \"Flash\" once you\'ve entered your message to begin flashing in Morse. The length of a dot is 1 second, a dash is 3 seconds. The space between symbols (dots and dashes) of the same letter is 1 second. The space between letters in the same word is 3 seconds (AB). Finally, space between words is 7 seconds (Example Space).</string>
+</resources>
