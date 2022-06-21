@@ -7,7 +7,7 @@ Android Studio Application that flashes Morse code using the phone flashlight.
 <ul>
   <li>Module: CMP309</li>
   <li>Title: Software Development for Mobile Devices</li>
-  <li>Grade: TBC</li>
+  <li>Grade: C</li>
 </ul>
             
             
